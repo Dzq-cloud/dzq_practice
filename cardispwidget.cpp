@@ -73,7 +73,7 @@ void CarDispWidget::paintEvent(QPaintEvent *event)
 
 
     // 绘制表盘名称和背景 矩形
-    painter.restore();; // 从堆栈中弹出已保存的状态
+    painter.restore();; // 从堆栈中弹出已保存的状态 这里什么
     QFontMetrics fm = painter.fontMetrics();
     int tx = center.x();
     int ty = int(center.y() + (radius / 1.4142));
